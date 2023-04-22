@@ -1,0 +1,32 @@
+{
+  "name": "seo-app",
+  "private": true,
+  "version": "0.1.0",
+  "description": "SEO Application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@ckeditor/strapi-plugin-ckeditor": "^0.0.7",
+    "@strapi/plugin-graphql": "4.9.2",
+    "@strapi/plugin-i18n": "4.9.2",
+    "@strapi/plugin-users-permissions": "4.9.2",
+    "@strapi/strapi": "4.9.2",
+    "better-sqlite3": "8.0.1"
+  },
+  "author": {
+    "name": "Minh Tran"
+  },
+  "strapi": {
+    "uuid": "ffc02609-27ee-44e2-a367-523f851fb278"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
