@@ -1,8 +1,8 @@
 {
-  "name": "seo-app",
+  "name": "pama-seo-app",
   "private": true,
   "version": "0.1.0",
-  "description": "SEO Application",
+  "description": "PAMA SEO Application",
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
@@ -12,6 +12,7 @@
   "devDependencies": {},
   "dependencies": {
     "@ckeditor/strapi-plugin-ckeditor": "^0.0.7",
+    "@strapi/plugin-documentation": "^4.9.2",
     "@strapi/plugin-graphql": "4.9.2",
     "@strapi/plugin-i18n": "4.9.2",
     "@strapi/plugin-users-permissions": "4.9.2",
