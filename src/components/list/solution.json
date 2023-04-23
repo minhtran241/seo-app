@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_list_solutions",
+  "info": {
+    "displayName": "Solution"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Solutions",
+      "pluginOptions": {
+        "translate": {
+          "translate": "translate"
+        }
+      }
+    },
+    "solutions": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::solution.solution",
+      "pluginOptions": {
+        "translate": {
+          "translate": "translate"
+        }
+      }
+    },
+    "limit": {
+      "type": "integer"
+    },
+    "all": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

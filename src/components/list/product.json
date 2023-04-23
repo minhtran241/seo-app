@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_list_products",
+  "info": {
+    "displayName": "Product"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Products",
+      "pluginOptions": {
+        "translate": {
+          "translate": "translate"
+        }
+      }
+    },
+    "products": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::product.product",
+      "pluginOptions": {
+        "translate": {
+          "translate": "translate"
+        }
+      }
+    },
+    "limit": {
+      "type": "integer"
+    },
+    "all": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

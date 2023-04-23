@@ -7,7 +7,7 @@ module.exports = ({ env }) => ({
     enabled: true,
   },
   translate: {
-    enabled: false, // Turn on after getting the API key
+    enabled: true, // Turn on after getting the API key
     config: {
       // Add the name of your provider here (for example 'deepl' for strapi-provider-translate-deepl or the full package name)
       // provider: "deepl",
