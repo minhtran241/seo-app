@@ -6,7 +6,7 @@
   },
   "options": {},
   "attributes": {
-    "title": {
+    "name": {
       "type": "string",
       "pluginOptions": {
         "translate": {
@@ -22,7 +22,7 @@
         "images"
       ]
     },
-    "content": {
+    "description": {
       "type": "text",
       "pluginOptions": {
         "translate": {

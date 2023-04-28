@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_page_section_customs",
+  "info": {
+    "displayName": "Section-Custom",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "pluginOptions": {
+        "translate": {
+          "translate": "translate"
+        }
+      }
+    },
+    "description": {
+      "type": "text",
+      "pluginOptions": {
+        "translate": {
+          "translate": "translate"
+        }
+      }
+    },
+    "details": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.custom-block"
+    },
+    "media": {
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

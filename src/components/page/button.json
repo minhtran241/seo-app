@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_page_buttons",
+  "info": {
+    "displayName": "Button"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "pluginOptions": {
+        "translate": {
+          "translate": "translate"
+        }
+      }
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

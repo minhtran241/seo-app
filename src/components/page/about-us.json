@@ -22,7 +22,7 @@
         }
       }
     },
-    "categories": {
+    "properties": {
       "type": "component",
       "repeatable": true,
       "component": "page.text-block",
@@ -33,12 +33,13 @@
       }
     },
     "media": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "videos"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     }
   }
 }

@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_page_details",
+  "info": {
+    "displayName": "Detail"
+  },
+  "options": {},
+  "attributes": {
+    "Cover": {
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Properties": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.custom-block",
+      "pluginOptions": {
+        "translate": {
+          "translate": "translate"
+        }
+      }
+    },
+    "Related": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.related-content",
+      "pluginOptions": {
+        "translate": {
+          "translate": "translate"
+        }
+      }
+    }
+  }
+}

@@ -33,12 +33,12 @@
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::product.product",
-      "mappedBy": "categories",
       "pluginOptions": {
         "translate": {
           "translate": "translate"
         }
-      }
+      },
+      "mappedBy": "categories"
     },
     "slug": {
       "type": "uid",
@@ -48,12 +48,12 @@
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::solution.solution",
-      "mappedBy": "categories",
       "pluginOptions": {
         "translate": {
           "translate": "translate"
         }
-      }
+      },
+      "mappedBy": "categories"
     },
     "description": {
       "pluginOptions": {

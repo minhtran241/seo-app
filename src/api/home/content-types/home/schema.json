@@ -4,7 +4,7 @@
   "info": {
     "singularName": "home",
     "pluralName": "homes",
-    "displayName": "Company",
+    "displayName": "Home",
     "description": ""
   },
   "options": {
@@ -43,7 +43,9 @@
       },
       "component": "page.about-us"
     },
-    "List": {
+    "Categories": {
+      "type": "component",
+      "repeatable": false,
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -52,10 +54,7 @@
           "translate": "translate"
         }
       },
-      "type": "dynamiczone",
-      "components": [
-        "list.news"
-      ]
+      "component": "list.category"
     }
   }
 }

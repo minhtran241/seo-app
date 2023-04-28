@@ -1,11 +1,12 @@
 {
   "collectionName": "components_page_custom_blocks",
   "info": {
-    "displayName": "Custom-Block"
+    "displayName": "Custom-Block",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "title": {
+    "name": {
       "type": "string",
       "pluginOptions": {
         "translate": {
@@ -14,21 +15,26 @@
       }
     },
     "media": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "videos",
         "images"
-      ],
-      "type": "media",
-      "multiple": false,
-      "required": false
+      ]
     },
-    "content": {
+    "description": {
       "type": "customField",
       "options": {
         "output": "HTML",
         "preset": "rich"
       },
       "customField": "plugin::ckeditor.CKEditor"
+    },
+    "order": {
+      "type": "integer",
+      "min": 0,
+      "unique": false
     }
   }
 }
