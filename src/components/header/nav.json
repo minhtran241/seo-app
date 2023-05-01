@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_header_navs",
+  "info": {
+    "displayName": "Nav",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "pluginOptions": {
+        "translate": {
+          "translate": "translate"
+        }
+      }
+    },
+    "path": {
+      "type": "string"
+    },
+    "order": {
+      "type": "integer",
+      "min": 0
+    }
+  }
+}

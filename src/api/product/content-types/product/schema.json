@@ -94,6 +94,17 @@
         }
       },
       "component": "page.custom-block"
+    },
+    "description": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        },
+        "translate": {
+          "translate": "translate"
+        }
+      },
+      "type": "text"
     }
   }
 }

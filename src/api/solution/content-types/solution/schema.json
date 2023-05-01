@@ -67,12 +67,12 @@
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::product.product",
-      "inversedBy": "solutions",
       "pluginOptions": {
         "translate": {
           "translate": "translate"
         }
-      }
+      },
+      "inversedBy": "solutions"
     },
     "source": {
       "pluginOptions": {
@@ -94,6 +94,17 @@
         }
       },
       "component": "page.custom-block"
+    },
+    "description": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        },
+        "translate": {
+          "translate": "translate"
+        }
+      },
+      "type": "text"
     }
   }
 }

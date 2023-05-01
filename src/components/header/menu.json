@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_header_menus",
+  "info": {
+    "displayName": "menu"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "pluginOptions": {
+        "translate": {
+          "translate": "translate"
+        }
+      }
+    },
+    "navs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "header.nav",
+      "pluginOptions": {
+        "translate": {
+          "translate": "translate"
+        }
+      }
+    }
+  }
+}
