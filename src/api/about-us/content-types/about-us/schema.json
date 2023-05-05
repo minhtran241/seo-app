@@ -43,6 +43,32 @@
         }
       }
     },
+    "Development": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        },
+        "translate": {
+          "translate": "translate"
+        }
+      },
+      "component": "page.section-custom"
+    },
+    "Metadata": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        },
+        "translate": {
+          "translate": "translate"
+        }
+      },
+      "component": "page.metadata"
+    },
     "title": {
       "pluginOptions": {
         "i18n": {
@@ -64,21 +90,7 @@
           "translate": "translate"
         }
       },
-      "type": "text",
-      "default": " PAMA was found in Czech Republic in 1991. We are one of leading firms in providing high-quality technologies and services in VietNam and Europe. PAMA invests in a wide range of fields, form Digital Television, Telecommunication, Special Technologies to Cyber Security."
-    },
-    "Development": {
-      "type": "component",
-      "repeatable": false,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        },
-        "translate": {
-          "translate": "translate"
-        }
-      },
-      "component": "page.section-custom"
+      "type": "text"
     }
   }
 }

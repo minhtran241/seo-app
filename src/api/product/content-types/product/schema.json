@@ -105,6 +105,15 @@
         }
       },
       "type": "text"
+    },
+    "popular": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "boolean",
+      "default": false
     }
   }
 }

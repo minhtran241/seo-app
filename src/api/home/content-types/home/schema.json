@@ -55,6 +55,19 @@
         }
       },
       "component": "list.category"
+    },
+    "Metadata": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        },
+        "translate": {
+          "translate": "translate"
+        }
+      },
+      "component": "page.metadata"
     }
   }
 }
