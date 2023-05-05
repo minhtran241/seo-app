@@ -43,7 +43,7 @@
       },
       "type": "text"
     },
-    "links": {
+    "sections": {
       "type": "component",
       "repeatable": true,
       "pluginOptions": {
@@ -54,24 +54,20 @@
           "translate": "translate"
         }
       },
-      "component": "header.nav"
+      "component": "footer.section-nav"
     },
-    "terms": {
-      "type": "component",
-      "repeatable": true,
+    "facebookLink": {
       "pluginOptions": {
         "i18n": {
           "localized": true
         },
         "translate": {
-          "translate": "translate"
+          "translate": ""
         }
       },
-      "component": "header.nav"
+      "type": "string"
     },
-    "support": {
-      "type": "component",
-      "repeatable": true,
+    "gmailLink": {
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -80,7 +76,7 @@
           "translate": "translate"
         }
       },
-      "component": "header.nav"
+      "type": "string"
     }
   }
 }

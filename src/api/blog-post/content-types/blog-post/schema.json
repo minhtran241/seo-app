@@ -121,6 +121,15 @@
         }
       },
       "type": "string"
+    },
+    "views": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "integer",
+      "default": 0
     }
   }
 }

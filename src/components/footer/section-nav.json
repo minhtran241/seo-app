@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_footer_section_navs",
+  "info": {
+    "displayName": "Section Nav"
+  },
+  "options": {},
+  "attributes": {
+    "Navs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "header.nav"
+    },
+    "name": {
+      "type": "string",
+      "pluginOptions": {
+        "translate": {
+          "translate": "translate"
+        }
+      }
+    }
+  }
+}

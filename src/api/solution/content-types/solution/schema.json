@@ -33,12 +33,12 @@
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::category.category",
-      "inversedBy": "solutions",
       "pluginOptions": {
         "translate": {
           "translate": "translate"
         }
-      }
+      },
+      "inversedBy": "solutions"
     },
     "thumbnail": {
       "type": "media",
