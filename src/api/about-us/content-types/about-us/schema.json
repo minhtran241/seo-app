@@ -17,7 +17,7 @@
   },
   "attributes": {
     "Formation": {
-      "displayName": "History of formation and development",
+      "displayName": "Formation",
       "type": "component",
       "repeatable": false,
       "pluginOptions": {
@@ -28,7 +28,7 @@
           "translate": "translate"
         }
       },
-      "component": "page.history-of-formation-and-development"
+      "component": "page.formation"
     },
     "Cover": {
       "type": "media",

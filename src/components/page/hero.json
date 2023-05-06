@@ -22,17 +22,6 @@
         }
       }
     },
-    "button": {
-      "displayName": "Button",
-      "type": "component",
-      "repeatable": true,
-      "component": "page.button",
-      "pluginOptions": {
-        "translate": {
-          "translate": "translate"
-        }
-      }
-    },
     "title": {
       "type": "string",
       "pluginOptions": {

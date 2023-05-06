@@ -6,6 +6,7 @@ module.exports = ({ env }) => ({
   seo: {
     enabled: true,
   },
+
   translate: {
     enabled: true, // Turn on after getting the API key
     config: {
@@ -15,5 +16,8 @@ module.exports = ({ env }) => ({
       //   // Your provider might define some custom options like an apiKey
       // },
     },
+  },
+  "import-export-entries": {
+    enabled: true,
   },
 });

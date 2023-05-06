@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_page_formation",
+  "info": {
+    "displayName": "Formation",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "pluginOptions": {
+        "translate": {
+          "translate": "translate"
+        }
+      },
+      "default": "Formation"
+    },
+    "History": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.custom-block",
+      "pluginOptions": {
+        "translate": {
+          "translate": "translate"
+        }
+      }
+    },
+    "historyImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}
