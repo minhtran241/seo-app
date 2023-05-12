@@ -3,6 +3,29 @@ module.exports = ({ env }) => ({
     enabled: true,
     resolve: "./src/plugins/strapi-plugin-ckeditor",
   },
+  slugify: {
+    enabled: true,
+    config: {
+      contentTypes: {
+        category: {
+          field: "slug",
+          references: "name",
+        },
+        product: {
+          field: "slug",
+          references: "name",
+        },
+        solution: {
+          field: "slug",
+          references: "name",
+        },
+        "blog-post": {
+          field: "slug",
+          references: "title",
+        },
+      },
+    },
+  },
   seo: {
     enabled: true,
   },
