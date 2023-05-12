@@ -10,11 +10,13 @@ Icon
 .Trashes
 ._*
 
+
 ############################
 # Linux
 ############################
 
 *~
+
 
 ############################
 # Windows
@@ -28,6 +30,7 @@ $RECYCLE.BIN/
 *.msi
 *.msm
 *.msp
+
 
 ############################
 # Packages
@@ -57,6 +60,7 @@ $RECYCLE.BIN/
 *.out
 *.pid
 
+
 ############################
 # Logs and databases
 ############################
@@ -66,6 +70,7 @@ $RECYCLE.BIN/
 *.sql
 *.sqlite
 *.sqlite3
+
 
 ############################
 # Misc.
@@ -96,16 +101,3 @@ node_modules
 
 testApp
 coverage
-
-############################
-# Strapi
-############################
-
-.env
-.env.example
-license.txt
-exports
-*.cache
-dist
-build
-.strapi-updater.json

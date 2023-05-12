@@ -47,7 +47,7 @@ const config = {
       "app.components.LeftMenu.navbrand.title": "Pama dashboard",
       "app.components.LeftMenu.navbrand.workplace": "Admin panel",
       "app.components.HomePage.welcomeBlock.content.again":
-        "Welcome to your Pama content manager dashboard!",
+        "Welcome to your Pama content management dashboard!",
     },
   },
 };
@@ -55,7 +55,7 @@ const config = {
 const bootstrap = (app) => {
   console.log(app);
 };
-
+x;
 export default {
   config,
   bootstrap,
